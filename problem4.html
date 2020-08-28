@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <link href="problem4.css" rel="stylesheet" type="text/css">
+  <title>FORM TO ADD MOVIES</title>
+  <h1 class="center">Movies form</h1>
+  </head>
+  <body>
+    <br>
+  <form >
+    <label for="d1" class="movie">Movie name:</label>
+    <br>
+    <input type="text" id="d1" name="moviename" ><br>
+    <label  for="rating"class="movie" >Imdb rating:</label>
+    <br>
+    <input type="text" id="rating" name="rating">
+    </form>
+   <input type="button" id="submit" value="Submit" onclick="addrow()">
+   <br>
+   <br>
+   
+<table id="datatable" width="400px" border="1">
+  <tr>
+    <th>Movie name</th>
+    <th>Imdb rating</th>
+  </tr>
+
+<script src="problem4.js"></script>
+</table>
+
+</html>
